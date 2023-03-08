@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Backend{% endblock title %}
+{% block nav-btn %}
+    <a href="{% url 'logout' %}" class="btn btn-outline-danger btn-sm text-light border-light" id="btn-nav">Logout</a>
+{% endblock nav-btn %}
+                    
+{% block content %}
+    <h1 class="container text-danger" 
+    style="width:80%; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);text-align: center;">Backend Template</h1>
+{% endblock %}
